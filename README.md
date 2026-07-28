@@ -1,74 +1,74 @@
 # Complete Git Learning Lab for DevOps Engineers
 
-> **A hands-on, project-based Git learning repository designed to take you from beginner to professional, through practical lessons, guided labs, challenges, self-paced projects, and real-world DevOps scenarios.**
+> **A hands-on, project-based Git Learning Lab designed to help aspiring DevOps Engineers, Cloud Engineers, Developers, and IT professionals master Git through practical lessons, guided labs, real-world scenarios, challenges, and portfolio projects.**
 
 ---
 
 ## About This Repository
 
-Learning Git can feel overwhelming.
+Learning Git shouldn't be about memorising commands.
 
-Many tutorials explain Git commands without showing **why they matter**, **when to use them**, or **how they're used in real DevOps environments**.
+Understanding **why Git exists**, **how it works**, and **when to use it** is what builds real confidence.
 
-This repository is different.
+This repository was created to provide a structured, practical learning experience that teaches Git the same way it is used in professional software engineering and DevOps environments.
 
-It is designed as a complete learning lab where every concept is taught through explanation, hands-on practice, troubleshooting, and real-world projects.
+Every module is designed to help you build both knowledge and practical experience through guided lessons, hands-on labs, troubleshooting exercises, and real-world projects.
 
-Whether you're a student, aspiring DevOps engineer, software developer, QA engineer, or IT professional, this repository will help you build practical Git skills that you can confidently use in real projects.
+Whether you're completely new to Git or looking to strengthen your existing skills, this Learning Lab will help you build a solid foundation that prepares you for collaborative software development and modern DevOps workflows.
 
 ---
 
-# What You'll Learn
+# Learning Objectives
 
-Throughout this learning lab, you'll learn how to:
+By completing this Learning Lab, you will be able to:
 
 * Understand how Git works
 * Create and manage Git repositories
-* Track and manage file changes
-* Work with branches confidently
-* Resolve merge conflicts
-* Undo mistakes safely
-* Collaborate with teams using Git and GitHub
+* Track and manage file changes confidently
+* Work with branches and merge code safely
 * Investigate project history
-* Use advanced Git workflows
-* Apply Git in real-world DevOps projects
+* Undo mistakes without losing work
+* Collaborate effectively using Git and GitHub
+* Resolve merge conflicts
+* Apply Git in real-world DevOps workflows
+* Build a portfolio demonstrating practical Git skills
 
 ---
 
-# Learning Path
+# Learning Roadmap
 
 ```text
-🌱 Foundation
-│
+Foundation
+
 ├── Module 00 - Before Git
 ├── Module 01 - Setup & Configuration
 ├── Module 02 - Daily Workflow
-│
-🌿 Intermediate
-│
+
+Core Git
+
 ├── Module 03 - Branching & Merging
 ├── Module 04 - Undoing & Rewriting History
 ├── Module 05 - Investigating History
 ├── Module 06 - Stashing & Cleaning
 ├── Module 07 - Remotes & Collaboration
-│
-🌳 Advanced
-│
+
+Advanced Workflows
+
 ├── Module 08 - Patch-Based Workflows
 ├── Module 09 - Tags & Releases
 ├── Module 10 - Multiple Working Trees
 ├── Module 11 - Large Repositories & Submodules
-├── Module 12 - Conflict Resolution Tools
-├── Module 13 - Searching the Repository
-├── Module 14 - Maintenance & Repository Health
+├── Module 12 - Conflict Resolution
+├── Module 13 - Searching Repositories
+├── Module 14 - Repository Maintenance
 ├── Module 15 - Hooks & Automation
 ├── Module 16 - Credentials & Security
 ├── Module 17 - Git Internals
 ├── Module 18 - Foreign SCM Interoperability
-│
-🏆 Mastery
-│
-└── Portfolio Projects
+
+Portfolio Projects
+
+└── Real-World Git & DevOps Projects
 ```
 
 ---
@@ -81,106 +81,202 @@ Complete-Git-learning-Lab-For-Devops-Engineers/
 ├── 00-before-git/
 ├── 01-setup-config/
 ├── 02-daily-workflow/
+├── 03-branching-merging/
 ├── ...
 ├── 18-foreign-scm/
-│
+
 ├── assets/
 ├── resources/
 ├── portfolio-projects/
 ├── templates/
-└── docs/
+├── docs/
+
+├── README.md
+├── CONTRIBUTING.md
+├── CHANGELOG.md
+└── LICENSE
 ```
 
 ---
 
-# Every Module Includes
+# Module Structure
 
 Every learning module follows the same structure to provide a consistent learning experience.
 
-* Lesson (`README.md`)
-* Guided Lab (`lab.md`)
-* Challenge (`challenge.md`)
-* Self-Paced Project (`self-paced-project.md`)
-* Solutions (`solutions.md`)
+```text
+Module
+
+├── README.md
+├── lab.md
+├── challenge.md
+├── self-paced-project.md
+└── solutions.md
+```
+
+Each module is designed to move you from understanding a concept to applying it in practical scenarios.
 
 ---
 
-# How to Use This Repository
+# Learning Methodology
 
-For the best learning experience:
+Every lesson follows the same learning cycle.
 
-1. Read the lesson.
-2. Complete the guided lab.
-3. Attempt the challenge without looking at the solution.
-4. Build the self-paced project.
-5. Compare your work with the provided solution.
-6. Commit your progress to your own GitHub repository.
+```text
+Learn
 
-This repository is designed to be completed by **doing**, not just reading.
+↓
+
+Understand
+
+↓
+
+Demonstrate
+
+↓
+
+Practice
+
+↓
+
+Break It
+
+↓
+
+Fix It
+
+↓
+
+Challenge Yourself
+
+↓
+
+Build Something
+```
+
+This Learning Lab is designed to be completed through practice, not passive reading.
+
+---
+
+# What Makes This Learning Lab Different?
+
+Most Git tutorials focus on commands.
+
+This Learning Lab focuses on understanding.
+
+Every topic explains:
+
+* What the command does
+* Why it exists
+* When to use it
+* How it works
+* Common mistakes
+* Troubleshooting steps
+* Best practices
+* How it is used in real DevOps environments
+
+The goal is not simply to remember Git commands, but to understand how Git supports professional software development and DevOps workflows.
 
 ---
 
 # Hands-On Learning
 
-Every lesson includes carefully selected screenshots to help you:
+Every module includes:
 
-* Follow each step visually.
-* Verify your results.
-* Compare your output with the expected result.
-* Troubleshoot common issues.
+* Detailed lessons
+* Guided hands-on labs
+* Practical challenges
+* Self-paced projects
+* Reference solutions
+* Screenshots for every major step
+* Real-world DevOps scenarios
 
-The goal is to make learning Git practical, interactive, and easy to follow.
+You'll learn by doing, not just by reading.
 
 ---
 
 # DevOps Focus
 
-Git is much more than a version control system for source code.
+Git is much more than a version control system.
 
 Modern DevOps teams use Git to manage:
 
+* Application source code
 * Infrastructure as Code (Terraform)
 * Docker projects
 * Kubernetes manifests
 * CI/CD pipelines
 * Ansible playbooks
-* Cloud configurations
+* Cloud infrastructure
 * Documentation
 
-Throughout this repository, you'll learn Git in the same context that professional DevOps engineers use it every day.
+Throughout this Learning Lab, you'll see how Git fits into the daily workflow of modern engineering teams.
 
 ---
 
 # Portfolio Projects
 
-Knowledge becomes valuable when you apply it.
+Learning is most valuable when you can demonstrate it.
 
-Throughout this learning lab, you'll complete self-paced projects that simulate real-world tasks and help you build a portfolio demonstrating your Git skills.
+Throughout this repository, you'll complete self-paced projects that simulate real-world tasks and help you build a portfolio showcasing your Git skills.
+
+By the end of this Learning Lab, you'll have practical evidence of your learning that you can confidently share with employers or include in your professional portfolio.
 
 ---
 
-# Who Is This Repository For?
+# Who Is This Learning Lab For?
 
-This repository is ideal for:
+This repository is designed for:
 
-* Beginners learning Git
 * Aspiring DevOps Engineers
 * Cloud Engineers
 * Software Developers
+* Platform Engineers
+* Site Reliability Engineers (SREs)
 * QA Engineers
 * System Administrators
-* Students preparing for technical interviews
-* Anyone who wants to master Git through practical experience
+* IT Professionals
+* Students learning Git for the first time
+
+No prior Git experience is required.
+
+---
+
+# How to Use This Repository
+
+For each module:
+
+1. Read the lesson.
+2. Complete the guided lab.
+3. Attempt the challenge independently.
+4. Build the self-paced project.
+5. Compare your work with the provided solution.
+6. Commit your progress to your own GitHub repository.
+
+Following this process will help reinforce concepts and build practical experience.
+
+---
+
+# Repository Standards
+
+This project follows a consistent set of documentation and development standards.
+
+* Every lesson is tested before publication.
+* Every module follows the same structure.
+* Commands are demonstrated using practical examples.
+* Screenshots are included where they improve understanding.
+* Documentation is written with beginners in mind while maintaining technical accuracy.
+
+Project standards are documented in the `docs/` directory.
 
 ---
 
 # Contributing
 
-Contributions are welcome.
+Contributions that improve the quality of this Learning Lab are welcome.
 
-If you find an error, discover a better explanation, or have ideas that improve the learning experience, feel free to open an issue or submit a pull request.
+If you discover an error, identify a better explanation, or would like to add new examples or improvements, please open an issue or submit a pull request.
 
-Please read the `CONTRIBUTING.md` file before contributing.
+Please read `CONTRIBUTING.md` before contributing.
 
 ---
 
@@ -194,17 +290,21 @@ See the `LICENSE` file for details.
 
 # Support the Project
 
-If this repository helps you learn Git, consider:
+If you find this Learning Lab helpful, consider:
 
 * Starring the repository
 * Forking the repository
 * Sharing it with others
 * Contributing improvements
 
-Every contribution helps make this learning resource better for the community.
+Your support helps make this Learning Lab better for everyone.
 
 ---
 
 # Get Started
 
-Begin with **Module 00 – Before Git**, where you'll learn what Git is, why it exists, and how it fits into modern software development before writing your first Git command.
+Start with **Module 00 – Before Git**.
+
+Before writing your first Git command, you'll learn what Git is, why it was created, the problems it solves, and how it fits into modern software development and DevOps practices.
+
+From there, you'll build your Git skills one module at a time through practical, hands-on learning.
